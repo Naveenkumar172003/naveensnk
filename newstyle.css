@@ -1,0 +1,332 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #1a1a40;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+header {
+    background-color: #282867;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    
+    text-align: end;
+    justify-content: end;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #4a90e2;
+    border-radius: 5px;
+}
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 80px 0;
+    background-color: #282867;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-content h1 span {
+    color: #4a90e2;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.connect-btn {
+    padding: 10px 20px;
+    background-color: #4a90e2;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-image img {
+    width: 200px;
+    height: 200px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+
+
+.services {
+    display: flex;
+    flex-direction: row;
+ 
+}
+
+.services .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+.service-card {
+    flex: 1; 
+    margin: 0 10px; 
+}
+
+.service-card {
+    background-color: #282867;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.service-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    font-size: 1.1em;
+    color: #b8b8d4;
+}
+
+
+.portfolio {
+    text-align: center;
+}
+
+.bio-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.image-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.image-section img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.bio {
+    max-width: 600px;
+    text-align: left;
+}
+
+.bio h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.bio p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.info p {
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4a90e2;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.stat-box {
+    background-color: #282867;
+    padding: 20px;
+    border-radius: 10px;
+    width: 23%;
+    text-align: center;
+}
+
+.stat-box h3 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.stat-box p {
+    font-size: 1.2em;
+}
+
+
+.skills-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skill {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.skill p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.skill-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #333;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skill-progress {
+    height: 100%;
+    background-color: #4a90e2;
+    border-radius: 5px;
+}
+
+
+.resume-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.resume-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.experience,
+.education {
+    width: 48%;
+}
+
+.resume-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.resume-icon {
+    width: 30px;
+    height: 30px;
+    background-color: #4a90e2;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.resume-details h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.resume-details h3 span {
+    font-size: 0.8em;
+    color: #aaa;
+}
+
+.resume-details p {
+    color: #b8b8d4;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-image img {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .bio-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .stats {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .services {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .skills {
+        flex-direction: column;
+    }
+
+    .resume-grid {
+        flex-direction: column;
+    }
+
+    .experience, 
+    .education {
+        width: 100%;
+    }
+}
